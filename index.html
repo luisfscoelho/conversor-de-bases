@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor</title>
+    <link type="text/css" rel="stylesheet" href="normalize.min.css"/>
+    <link type="text/css" rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+    <div>
+        <div class="valor">
+            <span id="tela">0</span>
+            <button id="back" class="btn small">←</button>
+        </div>
+        <div>
+            <button id="c" class="btn" onclick="tecla('C')" disabled>C</button>
+            <button id="d" class="btn" onclick="tecla('D')" disabled>D</button>
+            <button id="e" class="btn" onclick="tecla('E')" disabled>E</button>
+            <button id="f" class="btn" onclick="tecla('F')" disabled>F</button>
+            <button id="hex" class="btn" onclick="hex()">Hex</button><br>
+            <button id="8" class="btn" onclick="tecla('8')">8</button>
+            <button id="9" class="btn" onclick="tecla('9')">9</button>
+            <button id="a" class="btn" onclick="tecla('A')" disabled>A</button>
+            <button id="b" class="btn" onclick="tecla('B')" disabled>B</button>
+            <button id="dec" class="btn" onclick="dec()">Dec</button><br>
+            <button id="4" class="btn" onclick="tecla('4')">4</button>
+            <button id="5" class="btn" onclick="tecla('5')">5</button>
+            <button id="6" class="btn" onclick="tecla('6')">6</button>
+            <button id="7" class="btn" onclick="tecla('7')">7</button>
+            <button id="oct" class="btn" onclick="oct()">Oct</button><br>
+            <button id="0" class="btn" onclick="tecla('0')">0</button>
+            <button id="1" class="btn" onclick="tecla('1')">1</button>
+            <button id="2" class="btn" onclick="tecla('2')">2</button>
+            <button id="3" class="btn" onclick="tecla('3')">3</button>
+            <button id="bin" class="btn" onclick="bin()">Bin</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
