@@ -1,2 +1,2 @@
 # conversor-de-bases
-Um simples conversor de bases numericas.
+Um simples conversor de bases numericas, para um exercicio da faculdade.
